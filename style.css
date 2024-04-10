@@ -1,8 +1,15 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+    /* Foto e logo */
+img {
+    border-radius: 40px;
 }
 .MinhaFoto{
     text-align: center;
@@ -21,9 +28,7 @@
     margin-left: 10px;
 }
 
-img {
-    border-radius: 10px;
-}
+    /* Navbar */
 nav {
     background-color: white;
     box-shadow: 3px 3px 85px rgba(0, 0, 0, 0.2);
@@ -60,20 +65,21 @@ nav a{
     color: #000000;
     font-size: 14px;
 }
-
 .fundo:hover {
     background-color: rgba(219, 219, 219, 0.541);
     border-radius: 10px;
 }
+
+    /* Texto sobre mim */
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 5px;
     margin-bottom: 20px;
     text-align: center;
 }
 .paragrafoPag1 {
-    text-indent: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 24px;
+    font-family: Open Sans, sans-serif;
 }
 .SobreMim {
     border-radius: 10px;
@@ -85,6 +91,8 @@ h1{
     margin: 100px auto 20px;
     box-shadow:3px 3px 50px #000000;
 }
+
+    /* Sidebar */
 .sidebar {
     position: fixed;
     top: 0;
@@ -100,7 +108,6 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    
 }
 .sidebar li{
     width: 100%;
@@ -131,36 +138,33 @@ h1{
     }
 }
 
-.contato-item {
+    /* Contato */
+.contato-item{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: -60px;
     margin-top: 100px;
 }
-
-
 .icones {
-    width: 30px;
-    margin-right: 10px;
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 8px;
 }
-
-
 .contatos a {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 24px;
 }
-
-
 .contatos a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para os textos de contato */
-.contatos h1, .contatos p {
-    margin: 0; /* Remover margens padrão */
-    font-size: 18px; /* Tamanho da fonte */
+.contatosParagrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
-
-
