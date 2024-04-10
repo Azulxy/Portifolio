@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.MinhaFoto{
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+.Logo img {
+    max-width: 150px;
+   width: auto;
+   height: 150px;
+}
+.Logo{
+    position: absolute;
+    width: 20%;
+    height:100%;
+    margin-left: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 85px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 75px;
+    flex: 1 1 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+nav li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    height: 50px;
+    margin-left: 10px;
+}
+nav a{
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 14px;
+}
+
+.fundo:hover {
+    background-color: rgba(219, 219, 219, 0.541);
+    border-radius: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.paragrafoPag1 {
+    text-indent: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SobreMim {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    margin: 100px auto 20px;
+    box-shadow:3px 3px 50px #000000;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    flex: 1 1 100vh;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 1050;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff7a;
+    box-shadow: -10px 0 10px #e2e2e2;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100vh;
+}
+.sidebar.active {
+    display: flex;
+}
+.sidebar.inactive {
+    display: none;
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px) {
+    .sidebar{
+        width: 100%;
+    }
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+
+.icones {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.contatos a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+.contatos a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para os textos de contato */
+.contatos h1, .contatos p {
+    margin: 0; /* Remover margens padrão */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+
