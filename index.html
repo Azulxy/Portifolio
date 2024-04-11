@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Site/style.css">
     <script src="script.js" defer></script>
     <title>João Victor Azulay</title>
 </head>
@@ -16,8 +16,8 @@
         <ul>
             <!-- navbar -->
             <li class="hideOnMobile fundo"><a href="index.html">Quem sou eu?</a></li>
-            <li class="hideOnMobile fundo"><a href="ExperienciasProfissionais.html">Experiências profissionais</a></li>
-            <li class="hideOnMobile fundo"><a href="Portifolio.html">Portifólio</a></li>
+            <li class="hideOnMobile fundo"><a href="Site/ExperienciasProfissionais.html">Experiências profissionais</a></li>
+            <li class="hideOnMobile fundo"><a href="Site/Portifolio.html">Portifólio</a></li>
             <li class="menu-button fundo" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
 
@@ -25,8 +25,8 @@
             <!-- sidebar -->
             <li class="fundo" onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" fill="#000000"/></svg></a></li>
             <li class="fundo"><a href="index.html">Quem sou eu?</a></li>
-            <li class="fundo"><a href="ExperienciasProfissionais.html">Experiências profissionais</a></li>
-            <li class="fundo"><a href="Portifolio.html">Portifólio</a></li>
+            <li class="fundo"><a href="Site/ExperienciasProfissionais.html">Experiências profissionais</a></li>
+            <li class="fundo"><a href="Site/Portifolio.html">Portifólio</a></li>
         </ul>
     </nav>
     <div class="MinhaFoto"> 
@@ -43,8 +43,10 @@
 
     <div class="container">
         <div id="ZapButton" onclick="redirectToTalkToMe()">
-            <img class="ZapLogo" src="images/zap-logo-png.png" alt="">
-            <a class="ZapText" href="https://w.app/joaoazulxy">Talk to me!</a>
+            <a class="ZapLink" href="https://w.app/joaoazulxy" target="_blank">
+                <img class="ZapLogo" src="images/zap-logo-png.png" alt="">
+                <span class="ZapText">Talk to me!</span>
+            </a>
         </div>
     <div class="todos">
         <div class="contato-item">
