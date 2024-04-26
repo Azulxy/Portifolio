@@ -273,9 +273,13 @@ h1{
     font-family: Open Sans, sans-serif;
 }
 .gaiaTitulo{
-    font-family: "Fondamento", cursive, sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     text-decoration: none;
-    color: rgb(126, 50, 7);
+    background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     font-weight: bold;
     font-size: 28px;
     display: flex;
