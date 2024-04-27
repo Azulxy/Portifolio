@@ -85,6 +85,12 @@ nav a{
     background-color: rgba(219, 219, 219, 0.541);
     border-radius: 10px;
 }
+.dark{
+    cursor: pointer;
+    margin-top: 16px;
+    margin-right: 20px;
+    font-size: 16px;
+}
 
     /* Texto sobre mim */
 h1{

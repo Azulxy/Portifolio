@@ -4,11 +4,18 @@ function showSidebar() {
 }
 function hideSidebar() {
     const sidebar = document.querySelector('.sidebar');
-    sidebar.classList.remove('active'); 
+    sidebar.classList.remove('active');
 }
 function redirectToTalkToMe() {
     window.location.href = "https://w.app/joaoazulxy";
 }
+
+const darkModeButton = document.querySelector('.dark');
+
+darkModeButton.addEventListener('click', function() {
+    document.body.style.backgroundImage = "url('../images/FundoDark.png')";
+});
+
 // let ZapButton = document.getElementById("ZapButton");
 
 // ZapButton.onclick = function() {
